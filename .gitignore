@@ -1,0 +1,5 @@
+node_modules/
+deployment/artifacts/
+deployment/cache/
+.env
+*/*.png
