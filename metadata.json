@@ -1,9 +1,0 @@
-{
-    "name": "42Arthappitoken #1",
-    "description": "NFT created for the TokenizeArt project",
-    "image": "ipfs://bafkreidj4ztai4nb3xz3ekjkzjsv6hrh5nhz5gaww5fmochbs7rb5g6dua",
-    "attributes": [
-        { "trait_type": "artist", "value": "wbek" },
-        { "trait_type": "school", "value": "42" }
-    ]
-}

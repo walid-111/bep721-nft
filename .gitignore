@@ -3,3 +3,5 @@ deployment/artifacts/
 deployment/cache/
 .env
 */*.png
+*/mint/*.png
+*/mint/*.json
