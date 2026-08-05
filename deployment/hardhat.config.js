@@ -1,6 +1,5 @@
-import "@nomicfoundation/hardhat-ethers";
-import "@nomicfoundation/hardhat-verify";
 import "dotenv/config";
+
 import hardhatVerify from "@nomicfoundation/hardhat-verify";
 import hardhatMocha from "@nomicfoundation/hardhat-mocha";
 import hardhatEthers from "@nomicfoundation/hardhat-ethers";
