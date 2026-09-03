@@ -18,17 +18,17 @@ describe("NFT42", function () {
         ({ ethers } = await hre.network.getOrCreate());
         [owner, addr1, addr2] = await ethers.getSigners();
         const NFT42 = await ethers.getContractFactory("NFT42");
-        nft = await NFT42.deploy("42ArtToken", "42ART");
+        nft = await NFT42.deploy("42ArtHappiToken", "42AHT");
         await nft.waitForDeployment();
     });
 
     describe("Deployment", function () {
         it("should set the correct name", async function () {
-            expect(await nft.name()).to.equal("42ArtToken");
+            expect(await nft.name()).to.equal("42ArtHappiToken");
         });
 
         it("should set the correct symbol", async function () {
-            expect(await nft.symbol()).to.equal("42ART");
+            expect(await nft.symbol()).to.equal("42AHT");
         });
 
         it("should set the deployer as owner", async function () {
