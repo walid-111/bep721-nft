@@ -67,8 +67,8 @@ On BSCScan -> Read Contract:
 ## How to run locally
 
 ```bash
-git clone <git@github.com:walid-111/TokenizerNFT.git>
-cd deployment
+git clone https://github.com/walid-111/bep721-nft.git
+cd bep721-nft/deployment
 npm install
 cp .env.example .env # add your PRIVATE_KEY and BSCSCAN_KEY
 npx hardhat test
